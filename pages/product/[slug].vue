@@ -85,8 +85,9 @@ customHead();
 const route = useRoute();
 const product = ref(null);
 const currentImageIndex = ref(0);
+const slug = route.params.slug;
 
-const { data: fetchedProduct } = await useAsyncData(() => queryContent('products').where({ slug: { $eq: route.params.slug } }).findOne());
+const { data: fetchedProduct } = await useAsyncData(slug, () => queryContent('products').where({ slug: { $eq: slug } }).findOne());
 product.value = fetchedProduct.value;
 
 const prevImage = () => {
