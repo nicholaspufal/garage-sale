@@ -74,7 +74,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup async>
 import { useRoute } from 'vue-router';
 import { ref, computed } from 'vue';
 import PaymentInfo from '~/components/PaymentInfo.vue';
@@ -86,8 +86,8 @@ const route = useRoute();
 const product = ref(null);
 const currentImageIndex = ref(0);
 
-const [fetchedProduct] = await queryContent('products').where({ slug: { $eq: route.params.slug } }).find();
-product.value = fetchedProduct;
+const { data: fetchedProduct } = await useAsyncData(() => queryContent('products').where({ slug: { $eq: route.params.slug } }).findOne());
+product.value = fetchedProduct.value;
 
 const prevImage = () => {
   if (currentImageIndex.value > 0) {

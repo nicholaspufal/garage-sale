@@ -61,7 +61,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup async>
 import { ref, onMounted } from 'vue';
 import PaymentInfo from '~/components/PaymentInfo.vue';
 import customHead from '~/components/CustomHead.vue';
@@ -69,11 +69,8 @@ import customHead from '~/components/CustomHead.vue';
 customHead();
 
 const products = ref([]);
-
-onMounted(async () => {
-  const listProducts = await queryContent('products').find();
-  products.value = listProducts;
-});
+const { data: listProducts } = await useAsyncData('listProducts', () => queryContent('products').find());
+products.value = listProducts.value;
 
 // Currency formatting function
 const formatCurrency = (value) => {

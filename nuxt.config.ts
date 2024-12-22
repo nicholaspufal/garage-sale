@@ -11,8 +11,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  publicRuntimeConfig: {
-    staticFolder: '/static',
+  nitro: {
+    preset: 'static',
   },
   ssr: true
 })
