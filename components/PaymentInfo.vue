@@ -1,5 +1,5 @@
 <template>
-  <section class="forma-de-pagamento mt-8 p-6 bg-blue-50 border border-blue-200 rounded-lg shadow-md">
+  <section class="payment-info mt-8 p-6 bg-blue-50 border border-blue-200 rounded-lg shadow-md">
     <h3 class="text-xl font-semibold text-gray-800 mb-4">Forma de pagamento</h3>
     <p class="text-gray-700 leading-relaxed">
       Pagamento via PIX e retirada na minha localidade em Porto Alegre
@@ -24,10 +24,10 @@
 </script>
 
 <style scoped>
-.forma-de-pagamento a {
+.payment-info a {
   color: #1d4ed8; /* Tailwind blue */
 }
-.forma-de-pagamento a:hover {
+.payment-info a:hover {
   text-decoration: underline;
 }
 </style>
