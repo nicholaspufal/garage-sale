@@ -2,6 +2,7 @@
 title: Nintendo Switch OLED + Pro Controller + Case
 slug: switch
 price: 1000
+sold: true
 images:
   - /images/switch1.jpeg
   - /images/switch2.jpeg

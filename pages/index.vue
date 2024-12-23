@@ -14,45 +14,44 @@
 
     <!-- Product Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-      <div
-        v-for="product in products"
-        :key="product.id"
-        class="card border border-gray-200 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
-      >
-        <!-- Wrap the image in a clickable link -->
-        <router-link
-          :to="'/product/' + product.slug"
-          class="relative group block"
-        >
+      <div v-for="product in products" :key="product.id"
+        class="card border border-gray-200 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <!-- Wrap the image in a clickable link only if not sold -->
+        <router-link v-if="!product.sold" :to="'/product/' + product.slug" class="relative group block">
           <!-- Thumbnail Wrapper -->
-          <div
-            class="relative overflow-hidden bg-gray-50"
-            style="aspect-ratio: 4 / 3;"
-          >
+          <div class="relative overflow-hidden bg-gray-50" style="aspect-ratio: 4 / 3;">
             <!-- Product Image -->
-            <img
-              :src="product.images[0]"
-              alt="Imagem do Produto"
-              class="w-full h-full object-cover"
-            />
+            <img :src="product.images[0]" alt="Imagem do Produto" class="w-full h-full object-cover" />
           </div>
 
           <!-- Overlay on hover -->
           <div
-            class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
-          >
+            class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
             <span class="text-white font-semibold text-lg">Ver detalhes</span>
           </div>
         </router-link>
 
+        <!-- Sold Overlay -->
+        <div v-else class="relative overflow-hidden bg-gray-50" style="aspect-ratio: 4 / 3;">
+          <img :src="product.images[0]" alt="Imagem do Produto" class="w-full h-full object-cover opacity-50" />
+          <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <span class="text-white font-bold text-xl">Vendido</span>
+          </div>
+        </div>
+
         <!-- Product Info -->
         <div class="p-4 space-y-4 bg-white">
           <h2 class="text-xl font-bold text-gray-800">{{ product.title }}</h2>
-          <p class="text-lg text-gray-600">{{ formatCurrency(product.price) }}</p>
-          <router-link
-            :to="'/product/' + product.slug"
-            class="inline-block px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
-          >
+          <p v-if="!product.sold" class="text-lg text-gray-600">
+            {{ formatCurrency(product.price) }}
+          </p>
+          <p v-else class="text-lg font-semibold text-red-600">
+            Não disponível - vendido
+          </p>
+
+          <!-- Ver detalhes button only if not sold -->
+          <router-link v-if="!product.sold" :to="'/product/' + product.slug"
+            class="inline-block px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
             Ver detalhes
           </router-link>
         </div>
@@ -111,5 +110,18 @@ img {
 
 .hover\:shadow-xl:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img.opacity-50 {
+  filter: grayscale(100%); /* Optional: make the image grayscale for sold items */
+  opacity: 0.5;
+}
+
+.card .bg-black.bg-opacity-50 {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+}
+
+.card .text-xl {
+  font-size: 1.25rem; /* Adjust the size of the "Vendido" text */
 }
 </style>
