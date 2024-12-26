@@ -2,6 +2,7 @@
 title: Arturia Keystep 37 (controlador MIDI e sequenciador)
 slug: arturia
 price: 750
+sold: true
 images:
   - /images/arturia1.jpeg
   - /images/arturia2.jpeg
