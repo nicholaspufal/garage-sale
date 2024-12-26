@@ -7,6 +7,7 @@ images:
   - /images/focusrite2.jpeg
   - /images/focusrite3.jpeg
   - /images/focusrite4.jpeg
+sold: true
 ---
 
 ### Itens
