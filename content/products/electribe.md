@@ -9,14 +9,19 @@ images:
   - /images/electribe4.jpeg
 ---
 
+Vendendo meu KORG Electribe 2 comprado no Canadá e usado por pouco mais de 1 ano.
+Está em excelente condições, como se fosse novo. Nunca teve nenhum tipo de queda ou arranhão.
+Sempre foi bem cuidado.
+
+Acompanha junto um adaptador de tomada para padrão brasileiro. A fonte dele é 110v/220v e funciona normalmente aqui.
+
 ### Itens
 - 1 x KORG Electribe 2
-- 1 x Fonte
+- 1 x Fonte 110v/220v
 - 2 x MIDI 5-pin -> mini jack (3.5mm)
+- 1 x Adaptador de tomada lacrado
 
 Todos os itens são originais (conforme vieram na caixa do equipamento)
-
-Os adesivos em rosa são para lembrar a função alternativa de cada um dos pads (pode ser removido bem traquilamente caso você não tenha interesse em manter, são post-its recortados e não deixam nenhum resíduo)
 
 ### Especificações técnicas
 
