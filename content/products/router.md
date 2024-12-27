@@ -1,5 +1,5 @@
 ---
-title: Netgear Orbi RBS850 (Roteador + 1 Satélite para rede Mesh)
+title: Netgear Orbi AX6000 Rede Mesh (1 x Roteador + 1 x Satélite)
 slug: router
 price: 1500
 images:
