@@ -10,6 +10,7 @@ images:
   - /images/gpu5.jpeg
   - /images/gpu6.jpeg
   - /images/gpu7.jpeg
+sold: true
 ---
 
 Usada há pouco mais de 1 ano, em perfeitas condições.
