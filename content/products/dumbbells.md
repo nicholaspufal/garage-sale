@@ -1,5 +1,5 @@
 ---
-title: Halteres Ajustáveis Bowflex SelectTech 552 – Semi-novos + Itens Originais
+title: Halteres Ajustáveis Bowflex SelectTech 552
 slug: bowflex-selecttech-552
 price: 2500
 images:

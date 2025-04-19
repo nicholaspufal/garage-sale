@@ -50,7 +50,7 @@
           <img
             :src="currentImage"
             alt="Imagem do Produto"
-            class="rounded-lg shadow-md"
+            class="rounded-lg shadow-md w-full max-w-[600px] h-auto object-contain"
           />
 
           <!-- Previous Button -->
@@ -129,9 +129,10 @@ const formatCurrency = (value) => {
 }
 
 .image-gallery img {
-  max-width: 100%; /* Ensures image scales properly */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Rounded corners */
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: contain;
 }
 
 button {

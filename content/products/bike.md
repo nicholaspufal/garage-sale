@@ -1,5 +1,5 @@
 ---
-title: Bicicleta Ergométrica Schwinn 800IC – Semi-nova + Itens Originais
+title: Bicicleta Ergométrica Schwinn 800IC
 slug: bike
 price: 6900
 images:

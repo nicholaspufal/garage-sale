@@ -4,7 +4,7 @@
     <div class="text-center space-y-4">
       <h1 class="text-4xl font-bold text-gray-800">Venda de garagem do Nicholas</h1>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-        Estou vendendo itens que não uso mais e estão em excelente condição.
+        Estou de mudança e vendendo itens que não tenho como levar mas estão em excelente condição.
         Entrando em cada item você pode ver mais fotos e detalhes.
       </p>
     </div>
