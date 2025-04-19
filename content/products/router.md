@@ -1,7 +1,7 @@
 ---
 title: Netgear Orbi AX6000 Rede Mesh (1 x Roteador + 1 x Satélite)
 slug: router
-price: 1500
+price: 900
 images:
   - /images/router1.jpeg
   - /images/router2.jpeg
