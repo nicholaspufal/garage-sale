@@ -2,6 +2,7 @@
 title: Monitor LG UltraWide™ Curvo 34" – 34WR50QC‑B
 slug: monitor-lg-34wr50qc-b
 price: 990
+sold: true
 images:
   - /images/monitor-lg1.jpeg
   - /images/monitor-lg2.jpeg
