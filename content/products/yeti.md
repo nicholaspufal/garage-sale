@@ -1,7 +1,7 @@
 ---
 title: Microfone Condensador Blue Yeti + Suporte ("Mic Boom Arm")
 slug: yeti
-price: 400
+price: 200
 images:
   - /images/yeti1.jpeg
   - /images/yeti2.jpeg

@@ -1,7 +1,7 @@
 ---
 title: Monitor Gamer ASUS ROG Swift PG27AQN (27" 360Hz Painel IPS)
 slug: monitor-asus-rog-pg27aqn
-price: 6900
+price: 4900
 images:
   - /images/asus1.jpeg
   - /images/asus2.jpeg

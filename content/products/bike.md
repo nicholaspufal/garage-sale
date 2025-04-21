@@ -1,7 +1,7 @@
 ---
 title: Bicicleta Ergométrica Schwinn 800IC (resistência magnética, bluetooth)
 slug: bike
-price: 6900
+price: 4500
 images:
   - /images/bike1.jpeg
   - /images/bike2.jpeg
