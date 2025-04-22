@@ -2,6 +2,7 @@
 title: Mesa elétrica GenioDesk PLUS 160×70 cm – Amêndola Rústica & pés brancos
 slug: mesa-giodesk-plus-160x70
 price: 1700
+sold: true
 images:
   - /images/geniodesk1.jpeg
   - /images/geniodesk2.jpeg
