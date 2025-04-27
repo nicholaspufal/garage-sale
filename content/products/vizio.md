@@ -2,6 +2,7 @@
 title: Soundbar Vizio SB3821‑C6 2.1 com Subwoofer Sem Fio
 slug: vizio-sb3821-c6
 price: 400
+sold: true
 images:
   - /images/vizio1.jpeg
   - /images/vizio2.jpeg
