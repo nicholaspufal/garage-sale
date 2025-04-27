@@ -9,6 +9,7 @@ images:
   - /images/bike4.jpeg
   - /images/bike5.jpeg
   - /images/bike6.jpeg
+sold: true
 ---
 
 Produto usado por pouco mais de 1 ano em excelente estado. Ótima oportunidade visto que o modelo novo está por mais de R$ 10.900,00. Inclui todos os acessórios originais.

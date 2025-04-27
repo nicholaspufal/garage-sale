@@ -1,7 +1,7 @@
 ---
 title: Halteres Ajustáveis Bowflex SelectTech 552
 slug: bowflex-selecttech-552
-price: 1900
+price: 1700
 images:
   - /images/dumbbells1.jpeg
   - /images/dumbbells2.jpeg

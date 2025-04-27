@@ -1,7 +1,7 @@
 ---
 title: Jabra Speak 410 (microfone/speaker)
 slug: jabra
-price: 300
+price: 150
 images:
   - /images/jabra1.jpeg
   - /images/jabra2.jpeg
