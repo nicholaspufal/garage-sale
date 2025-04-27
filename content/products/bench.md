@@ -2,6 +2,7 @@
 title: Sapateira Banco Sion Duo - Estofado Cinza
 slug: sapateira
 price: 300
+sold: true
 images:
   - /images/sapateira1.jpeg
   - /images/sapateira2.jpeg
